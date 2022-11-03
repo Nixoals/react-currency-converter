@@ -34,7 +34,7 @@ header img{
     width: 100%;
 }
 
-.currency-line input{
+.currency-line input, .currency-line select{
     height: 100%;
     background-color: #EEEEEE;
     border: none;
@@ -46,13 +46,6 @@ header img{
 }
 
 .currency-line select{
-    height: 100%;
-    background-color: #EEEEEE;
-    border: none;
-    border-radius: 5px;
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-weight: bold;
     width: 20%;
 }
 
