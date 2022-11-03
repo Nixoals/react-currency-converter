@@ -1,7 +1,7 @@
 import './App.css';
 import rates from './const';
 import money from './images/money.png';
-import CurrencyLine from './images/components/CurrencyLine';
+import CurrencyLine from './components/CurrencyLine';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
