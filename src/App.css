@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80px;
+    gap: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1{
+    font-size: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header img{
+    height: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.currency-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    max-width: 350px;
 }
 
-.App-link {
-  color: #61dafb;
+.currency-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 15px;
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.currency-line input{
+    height: 100%;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 80%;
+}
+
+.currency-line select{
+    height: 100%;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 20%;
+}
+
+.button-converter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.button-converter button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg,#607C97, #BCD0E1);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    color: white;
+    border: solid 2px #607C97;
+}
+.button-converter .arrow-icon{
+    font-size: 20px;
+    font-weight: bold;
 }
